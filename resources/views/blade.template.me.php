@@ -1,9 +1,11 @@
-@extendes('layout')
+@extends('layout')
 
 @section('title')
-Home
+Laravel
 @stop
 
 @section('content')
-	<h1>This is one lean template.</h1>
+	<div class="title">
+		<div class="title">Laravel 5</div>
+	</div>
 @stop
